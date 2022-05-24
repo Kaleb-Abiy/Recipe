@@ -11,7 +11,7 @@ function Search() {
         fetch(url)
         .then(response => response.json())
         .then(data => setMeals(data.meals))
-    },[total])
+    },[url])
 
     console.log(meals)
 
