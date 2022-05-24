@@ -16,9 +16,9 @@ function Search() {
     console.log(meals)
 
 
-    const handleSubmit = (e)=>{
+   const handleSubmit = (e)=>{
         e.preventDefault()
-        setTotal(calorie)
+        //setTotal(calorie)
     }
 
 
