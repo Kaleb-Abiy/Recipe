@@ -4,7 +4,7 @@ import './Search.css'
 
 function Search() {
     const [calorie, setCalorie] = useState('');
-    const [total, setTotal] = useState('');
+    //const [total, setTotal] = useState('');
     const [meals, setMeals] = useState([]);
     const url = `https://api.spoonacular.com/mealplanner/generate?timeFrame=day&targetCalories=${calorie}&apiKey=ca41ab6461834f009b5883a56159f181`
     useEffect(()=>{
