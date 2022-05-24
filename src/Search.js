@@ -7,7 +7,6 @@ function Search() {
     const [total, setTotal] = useState('');
     const [meals, setMeals] = useState([]);
     const url = `https://api.spoonacular.com/mealplanner/generate?timeFrame=day&targetCalories=${calorie}&apiKey=ca41ab6461834f009b5883a56159f181`
-    const base_img_url = 'https://spoonacular.com/recipeImages/'
     useEffect(()=>{
         fetch(url)
         .then(response => response.json())
